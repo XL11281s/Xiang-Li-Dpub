@@ -1,9 +1,52 @@
 body {
-    background-color: aqua;
+    background-color:#A8DADB;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color: blue;
+    color: #1D3557;
 }
+
+div.largetext {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+div.extralargetext {
+    font-size: 100px;
+    line-height: 80px;
+}
+
+div.mediumtext {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+div.smalltext {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+
+div.fontwhite {
+    color: #FFFFFF;
+}
+
+div.fontblue {
+    color: #0449A6;
+}
+
+div.whitebg {
+    background-color: #FFFFFF;
+}
+
+div.blackbg {
+    background-color: #000;
+}
+
+div.darkbluebg {
+    background-color: #213A5B;
+}
+
+
 
 @font-face {
     font-family: "funnyfont";
@@ -11,7 +54,7 @@ body {
 }
 
 @keyframes {
-    
+
 }
 
 img {
