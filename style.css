@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+@font-face {
+    font-family: "funnyfont";
+    src: url("fonts/picnic.woff");
+}
+
+@keyframes {
+    
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
