@@ -3,7 +3,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: #1D3557;
+    margin: 10px;
 }
+
+/* textsize */
 
 div.largetext {
     font-size: 48px;
@@ -25,6 +28,7 @@ div.smalltext {
     line-height: 22px;
 }
 
+/* textcolor */
 
 div.fontwhite {
     color: #FFFFFF;
@@ -34,6 +38,7 @@ div.fontblue {
     color: #0449A6;
 }
 
+/* textbackgroundcolor */
 div.whitebg {
     background-color: #FFFFFF;
 }
@@ -46,21 +51,32 @@ div.darkbluebg {
     background-color: #213A5B;
 }
 
+/* font&weight */
 
-
-@font-face {
-    font-family: "funnyfont";
-    src: url("fonts/picnic.woff");
+div.serif {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
 }
 
-@keyframes {
 
+/* layout */
+
+div.width33 {
+    width: 33%;
 }
 
-img {
+div.width66 {
+    width: 66%;
+}
+
+div.width100 {
     width: 100%;
 }
 
-video {
-    width: 100%;
+div.mb50 {
+    margin-bottom: 50px;
+}
+
+div.mb200 {
+    margin-bottom: 200px;
 }
