@@ -28,6 +28,23 @@ div.smalltext {
     line-height: 22px;
 }
 
+div.LStext {
+    font-family: ;
+}
+
+div.text16 {
+    font-size: 16px;
+}
+
+div.livescape {
+    float: left;
+    margin-right: 52px;
+}
+
+div.ml30 {
+    margin-left: 30px;
+}
+
 /* textcolor */
 
 div.fontwhite {
@@ -73,10 +90,114 @@ div.width100 {
     width: 100%;
 }
 
+
+div.ml200 {
+    margin-left: 200px;
+}
+
+div.mr200 {
+    margin-right: 200px;
+}
+
+div.mlauto {
+    margin-left: auto;
+}
+
+div.mrauto {
+    margin-right: auto;
+}
+
+div.ml0 {
+    margin-left: 0px;
+}
+
+div.mr0 {
+    margin-right: 0px;
+}
+
 div.mb50 {
     margin-bottom: 50px;
 }
 
 div.mb200 {
     margin-bottom: 200px;
+}
+
+div.mb30 {
+    margin-bottom: 30px;
+}
+
+div.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+div.now {
+    font-size: 580px;
+    font-family: sans-serif;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.textcenter {
+    text-align: center;
+}
+
+div.rotatedtextleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(57deg) translate(600px, -20px)
+    
+}
+
+div.rotatedtextright {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(100deg) translate(1200px, -20px)
+}
+
+div.container1 {
+    position: relative;
+}
+
+
+
+
+
+/* line */
+
+div.line60 {
+    width: 1980px;
+    height: 60px;
+}
+
+div.line50 {
+    width: 1980px;
+    height: 50px;
+}
+
+div.line40 {
+    width: 1980px;
+    height: 40px;
+}
+
+div.line30 {
+    width: 1980px;
+    height: 30px;
+}
+
+div.line20 {
+    width: 1980px;
+    height: 20px;
+}
+
+div.line10 {
+    width: 1980px;
+    height: 10px;
 }
