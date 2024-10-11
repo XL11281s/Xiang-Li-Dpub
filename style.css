@@ -3,7 +3,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: #1D3557;
-    margin: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 
 @font-face {
@@ -13,6 +14,7 @@ body {
 
 @font-face {
     src: url("font/josefinsans1.woff");
+    font-family: "jose";
 }
 
 /* textsize */
@@ -48,6 +50,10 @@ div.livescape {
 
 div.Inter {
     font-family: "Inter";
+}
+
+div.jose {
+    font-family: "jose";
 }
 
 div.ml30 {
