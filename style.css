@@ -70,6 +70,9 @@ div.fontblue {
     color: #0449A6;
 }
 
+div.fontblack {
+    color: #000;
+}
 /* textbackgroundcolor */
 div.whitebg {
     background-color: #FFFFFF;
@@ -185,7 +188,7 @@ div.rotatedtextleft {
     position: absolute;
     top: 0;
     left: 0;
-    transform: rotate(44deg) translate(400px, -10px)
+    transform: rotate(44deg) translate(470px, -20px)
     
 }
 
@@ -193,7 +196,7 @@ div.rotatedtextright {
     position: absolute;
     top: 0;
     left: 0;
-    transform: rotate(100deg) translate(1200px, 20px)
+    transform: rotate(-70deg) translate(260px, 1375px)
 }
 
 div.fontsize14 {
@@ -203,6 +206,7 @@ div.fontsize14 {
 div.container1 {
     position: relative;
 }
+
 
 
 
