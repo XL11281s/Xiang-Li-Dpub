@@ -17,6 +17,14 @@ body {
     font-family: "jose";
 }
 
+img {
+    position: absolute;
+    width: 5%;
+    top: 175px;
+    left: 902px;
+
+}
+
 /* textsize */
 
 div.largetext {
