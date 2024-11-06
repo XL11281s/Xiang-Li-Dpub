@@ -83,7 +83,7 @@ img.muti {
 img.buttom {
     position: absolute;
     width: 100%;
-    top: 38000px;
+    top: 35500px;
     left: 0px;
     opacity: 0.7;
 }
@@ -356,17 +356,19 @@ div.cubetitle {
 div.rectangle1 {
     position: absolute;
     height: 2000px;
-    width: 4000px;
+    width: 7600px;
     background: linear-gradient(to top, #213A5B00,#213A5B);
-    top: 28500px;
-    left: -500px;
+    top: 29990px;
+    left: 0px;
     z-index: 9999;
 }
 
 div.rectangle2 {
     position: absolute;
     height: 2000px;
+    width: 7600px;
     background: linear-gradient(to bottom, #213A5B00,#213A5B);
-    top: 42000px;
+    top: 34800px;
     z-index: 9998;
+    left: 0px;
 }
