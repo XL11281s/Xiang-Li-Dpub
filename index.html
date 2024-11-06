@@ -7,15 +7,36 @@
     <title>Xiang Li's Homepage</title>
     <link rel="stylesheet" href="newstyle.css">
 </head>
+<style>
+    html,
+    div,
+    body,
+    video {
+        padding: 0px;
+    }
+
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        /* 确保页面占满整个视口宽度 */
+        height: 100%;
+        /* 确保页面占满整个视口高度 */
+        box-sizing: border-box;
+        /* 为了更好地控制元素的尺寸 */
+    }
+</style>
 
 <body style="background-color: #213a5b;">
 
 
-    <video width="100%" autoplay loop muted>
+    <video width="100%" autoplay loop muted style="margin: 0px; padding: 0px;">
         <source src="video/cube title.mp4">
     </video>
 
-    <div style="
+    <div style="margin-top: -5px; padding: 0px;
       background: linear-gradient(to bottom, #000000, #213a5b);
       display: inline-block; width: 100%;
     ">
@@ -43,12 +64,14 @@
 
     <div class="jianbian1" style="background:  linear-gradient(to bottom, #213a5b, #213a5b00 50%), 
                url(./image/hands.png); 
-               height: 1500px; 
-               background-position: center -100px; 
+               height: 1200px; 
+               
                background-size: 100% 100%; 
-               background-repeat: no-repeat;">
+               background-repeat: no-repeat;
+               display: flex; flex-direction: column; justify-content: flex-end;">
         <!-- <img style="width: 100%; " src="./image/hands.png" /> -->
-        <p class="fontwhite1 Inter" style="display: flex; flex-direction: row-reverse;">Live Scape revolutionizes the
+        <p class="fontwhite1 Inter" style="margin-left: 55px; margin-right: 55px;  transform: translateY(-50px);">Live
+            Scape revolutionizes the
             way we experience movies
             by transforming scenes to
             reflect
@@ -64,13 +87,7 @@
     </div>
 
 
-
-
-    <div></div>
-
-    <div></div>
-
-    <img style="width: 100%;" src="image/bottom.png">
+    <img style="width: 100%; margin-top: 80px; opacity: 0.7;" src="image/bottom.png">
 
 
 
