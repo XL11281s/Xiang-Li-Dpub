@@ -65,7 +65,42 @@ img.bottomhand {
     transform: scaleX(-1);
 }
 
+img.hands {
+    position: absolute;
+    width: 100%;
+    top: 30000px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+img.muti {
+    position: absolute;
+    width: 100%;
+    top: 28000px;
+    left: 0px;
+}
+
+img.buttom {
+    position: absolute;
+    width: 100%;
+    top: 38000px;
+    left: 0px;
+    opacity: 0.7;
+}
+
 /* textsize */
+
+div.intro {
+    position: absolute;
+    font-size: 110px;
+    width: 6000px;
+    height: 1347px;
+    top: 33800px;
+    left: 900px;
+    line-height: 155%;
+    letter-spacing: 8px;
+    
+}
 
 div.largetext {
     font-size: 48px;
@@ -317,4 +352,21 @@ div.cubetitle {
     left: 0px;
     width: auto;
     height: auto;
+}
+div.rectangle1 {
+    position: absolute;
+    height: 2000px;
+    width: 4000px;
+    background: linear-gradient(to top, #213A5B00,#213A5B);
+    top: 28500px;
+    left: -500px;
+    z-index: 9999;
+}
+
+div.rectangle2 {
+    position: absolute;
+    height: 2000px;
+    background: linear-gradient(to bottom, #213A5B00,#213A5B);
+    top: 42000px;
+    z-index: 9998;
 }
