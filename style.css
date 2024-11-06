@@ -1,11 +1,15 @@
 body {
-    background-color:#A8DADB;
+    background-color:#213A5B;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color: #1D3557;
+
+    color: #FFFFFF
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(to bottom, #447C9C, #A8DADB);
 }
+
+
 
 @font-face {
     src: url("font/inter1.woff");
@@ -17,12 +21,48 @@ body {
     font-family: "jose";
 }
 
-img {
-    position: absolute;
-    width: 5%;
-    top: 175px;
-    left: 902px;
+@font-face {
+    font-family: "julius";
+    src: url("font/juliussansone1.woff");
+}
 
+video.title {
+    position: absolute;
+    width: 300%;
+    top: 0px;
+    left: 0px;
+}
+
+img.tophand {
+    position: absolute;
+    width: 90%;
+    top: 5500px;
+    left: 800px;
+
+}
+
+img.cube {
+    position: absolute;
+    width: 250%;
+    top: 1800px;
+    left: -5500px;
+    opacity: 0.6;
+}
+
+img.cube1 {
+    position: absolute;
+    width: 250%;
+    top: 1830px;
+    left: -5530px;
+    opacity: 0.4;
+}
+
+img.bottomhand {
+    position: absolute;
+    width: 90%;
+    top: 23000px;
+    left: -100px;
+    transform: scaleX(-1);
 }
 
 /* textsize */
@@ -54,6 +94,11 @@ div.text16 {
 div.livescape {
     float: left;
     margin-right: 52px;
+   
+}
+
+div.nonbg {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 div.Inter {
@@ -250,4 +295,26 @@ div.line20 {
 div.line10 {
     width: 1980px;
     height: 10px;
+}
+
+div.rectangle {
+    height: 1023px;
+    background: linear-gradient(to bottom, #000,#213A5B);
+}
+
+div.topbackground {
+    height: 1023px;
+    background-color: #000;
+}
+
+div.newbackground {
+    height: 20000px;
+    background-color: #213A5B;
+}
+
+div.cubetitle {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
 }
