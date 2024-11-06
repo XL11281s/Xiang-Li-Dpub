@@ -1,19 +1,14 @@
 body {
-    background-color:#213A5B;
+    background-color: #213A5B;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 
     color: #FFFFFF
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(to bottom, #447C9C, #A8DADB);
 }
-
-
 
 @font-face {
     src: url("font/inter1.woff");
-    font-family:"Inter";
+    font-family: "Inter";
 }
 
 @font-face {
@@ -92,14 +87,10 @@ img.buttom {
 
 div.intro {
     position: absolute;
-    font-size: 110px;
-    width: 6000px;
-    height: 1347px;
-    top: 33800px;
-    left: 900px;
+    font-size: 48px;
     line-height: 155%;
     letter-spacing: 8px;
-    
+
 }
 
 div.largetext {
@@ -129,7 +120,7 @@ div.text16 {
 div.livescape {
     float: left;
     margin-right: 52px;
-   
+
 }
 
 div.nonbg {
@@ -161,6 +152,7 @@ div.fontblue {
 div.fontblack {
     color: #000;
 }
+
 /* textbackgroundcolor */
 div.whitebg {
     background-color: #FFFFFF;
@@ -277,7 +269,6 @@ div.rotatedtextleft {
     top: 0;
     left: 0;
     transform: rotate(44deg) translate(470px, -20px)
-    
 }
 
 div.rotatedtextright {
@@ -334,7 +325,7 @@ div.line10 {
 
 div.rectangle {
     height: 1023px;
-    background: linear-gradient(to bottom, #000,#213A5B);
+    background: linear-gradient(to bottom, #000, #213A5B);
 }
 
 div.topbackground {
@@ -353,22 +344,19 @@ div.cubetitle {
     width: auto;
     height: auto;
 }
+
 div.rectangle1 {
-    position: absolute;
-    height: 2000px;
-    width: 7600px;
-    background: linear-gradient(to top, #213A5B00,#213A5B);
-    top: 29990px;
+    background: linear-gradient(to top, #213A5B00, #213A5B);
     left: 0px;
-    z-index: 9999;
 }
 
 div.rectangle2 {
-    position: absolute;
-    height: 2000px;
-    width: 7600px;
-    background: linear-gradient(to bottom, #213A5B00,#213A5B);
-    top: 34800px;
-    z-index: 9998;
+    background: linear-gradient(to bottom, #213A5B00, #213A5B);
     left: 0px;
+}
+
+.jianbian {
+    background: linear-gradient(to top, #213A5B00, #213A5B);
+    display: inline-block;
+    width: 100%;
 }

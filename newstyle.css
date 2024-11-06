@@ -1,0 +1,13 @@
+.jianbian {
+    background: linear-gradient(to top, #213A5B00, #213A5B);
+    display: inline-block;
+    width: 100%;
+}
+
+.fontwhite1 {
+    color: #FFFFFF;
+}
+
+.Inter {
+    font-family: "Inter";
+}
