@@ -43,16 +43,16 @@ img.tophand {
 
 img.cube {
     position: absolute;
-    width: 250%;
-    top: 1800px;
+    width: 220%;
+    top: 2100px;
     left: -5500px;
     opacity: 0.6;
 }
 
 img.cube1 {
     position: absolute;
-    width: 250%;
-    top: 1830px;
+    width: 220%;
+    top: 2130px;
     left: -5530px;
     opacity: 0.4;
 }
