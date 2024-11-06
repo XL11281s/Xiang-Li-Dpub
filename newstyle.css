@@ -12,3 +12,20 @@
     font-family: "Inter";
     font-size: 32px;
 }
+
+.image-button {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s;
+    /* 添加点击效果 */
+}
+
+.image-button:hover {
+    transform: scale(1.05);
+    /* 鼠标悬停时放大 */
+}
+
+.image-button:active {
+    transform: scale(0.95);
+    /* 点击时缩小 */
+}
