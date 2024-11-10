@@ -17,15 +17,58 @@
     display: inline-block;
     cursor: pointer;
     transition: transform 0.3s;
-    /* 添加点击效果 */
 }
 
 .image-button:hover {
     transform: scale(1.05);
-    /* 鼠标悬停时放大 */
+
 }
 
 .image-button:active {
     transform: scale(0.95);
-    /* 点击时缩小 */
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    /* 容器宽度 */
+    height: auto;
+    /* 容器高度 */
+    overflow: hidden;
+    /* 隐藏溢出内容 */
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+    /* 背景图片在底层 */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    /* 叠加图片在上层 */
+    overflow: hidden;
+    /* 隐藏蒙版区域外的内容 */
+    clip-path: inset(50px 100px 50px 100px);
+    /* 蒙版的内边距（上 右 下 左） */
+}
+
+.overlay-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
